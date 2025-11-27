@@ -18,22 +18,24 @@ The agent is designed to be runnable locally and utilizes open-source data:
 - **LLM Integration**: (Assumed) Framework for natural language processing and conversational responses.
 - **Web Search**: Powers the web-grounded search for real-time news and events.
 
-## Architecture
+## 🧠 Agent Architecture
 
-root_agent (travel_planner_main)
-		└─ travel_inspiration_agent
-					├─ news_agent  (uses google_search_grounding tool)
-					└─ places_agent (uses location_search_tool -> Overpass + Nominatim)
+The Travel Assistant Agent operates with a hierarchical structure:
+
+* **root\_agent** (travel\_planner\_main)
+    * **travel\_inspiration\_agent**
+        * **news\_agent** (uses `Google Search_grounding` tool)
+        * **places\_agent** (uses `location_search_tool` $\rightarrow$ Overpass + Nominatim)
 
 ### Agents:
-**Root Agent** - Entry point orchestration agent (delegates to inspiration)
-**Inspiration Agent** — suggests destinations & ideas
-**News Agent** — fetches grounded travel news & events
-**Places Agent** — uses OpenStreetMap Overpass API to find hotels, cafés, landmarks
+- **Root Agent** - Entry point orchestration agent (delegates to inspiration)
+- **Inspiration Agent** — suggests destinations & ideas
+- **News Agent** — fetches grounded travel news & events
+- **Places Agent** — uses OpenStreetMap Overpass API to find hotels, cafés, landmarks
 
 ### Tools:
-**google_search_grounding** - AgentTool wrapping search agent for concise bullet results
-**location_search_tool** - FunctionTool: find_nearby_places_open(query, location, radius, limit); 	Free OSM nearby place finder
+- **google_search_grounding** - AgentTool wrapping search agent for concise bullet results
+- **location_search_tool** - FunctionTool: find_nearby_places_open(query, location, radius, limit); 	Free OSM nearby place finder
 
 ## Prerequisites
 - Python 3.11+
