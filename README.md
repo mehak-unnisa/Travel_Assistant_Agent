@@ -20,8 +20,6 @@ The agent is designed to be runnable locally and utilizes open-source data:
 
 ## 🧠 Agent Architecture
 
-The Travel Assistant Agent operates with a hierarchical structure:
-
 ### 🗺️ Execution Flow
 
 ```text
