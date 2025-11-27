@@ -22,10 +22,14 @@ The agent is designed to be runnable locally and utilizes open-source data:
 
 The Travel Assistant Agent operates with a hierarchical structure:
 
-* **root\_agent** (travel\_planner\_main)
-    * **travel\_inspiration\_agent**
-        * **news\_agent** (uses `Google Search_grounding` tool)
-        * **places\_agent** (uses `location_search_tool` $\rightarrow$ Overpass + Nominatim)
+### 🗺️ Execution Flow
+
+```text
+root_agent (travel_planner_main)
+└── travel_inspiration_agent
+    ├── news_agent (uses google_search_grounding tool)
+    └── places_agent (uses location_search_tool -> Overpass + Nominatim)
+```
 
 ### Agents:
 - **Root Agent** - Entry point orchestration agent (delegates to inspiration)
