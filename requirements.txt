@@ -1,0 +1,6 @@
+google-adk
+google-adk[eval]
+google-genai
+aiosqlite
+sqlalchemy
+geopy
