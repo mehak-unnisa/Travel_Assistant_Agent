@@ -38,6 +38,7 @@ root_agent (travel_planner_main)
     ├── news_agent (uses google_search_grounding tool)
     └── places_agent (uses location_search_tool -> Overpass + Nominatim)
 ```
+<img width="582" height="432" alt="Screenshot 2025-11-28 at 2 36 48 AM" src="https://github.com/user-attachments/assets/daf49f8c-d3f6-4d59-8368-43e78f3c3c78" />
 
 ## 🛠️ The Build – Tools & Technologies  
 
