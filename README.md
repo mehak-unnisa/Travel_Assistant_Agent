@@ -1,5 +1,6 @@
 # Travel Assistant Agent 🌍✈️
 The **Travel Assistant Agent** is an intelligent, multi-functional AI designed to streamline the entire travel planning process. 
+
 <img width="1024" height="1024" alt="Travel_AI_Agent" src="https://github.com/user-attachments/assets/718c81a9-2732-41b0-8688-a8c7df3536e4" />
 
 ## 📌 Problem Statement
@@ -40,6 +41,12 @@ root_agent (travel_planner_main)
     └── places_agent (uses location_search_tool -> Overpass + Nominatim)
 ```
 <img width="582" height="432" alt="Screenshot 2025-11-28 at 2 36 48 AM" src="https://github.com/user-attachments/assets/daf49f8c-d3f6-4d59-8368-43e78f3c3c78" />
+
+## 🗺️ Demo
+
+<img width="1189" height="701" alt="Screenshot 2025-12-02 at 1 26 52 AM" src="https://github.com/user-attachments/assets/30488463-54ff-43fc-b002-cd3b24f817a2" />
+<img width="1182" height="696" alt="Screenshot 2025-12-02 at 1 33 34 AM" src="https://github.com/user-attachments/assets/c5a24bd4-ede6-4c00-9830-4d5919a3aa43" />
+<img width="1184" height="697" alt="Screenshot 2025-12-02 at 1 34 35 AM" src="https://github.com/user-attachments/assets/cb84dc62-ed1b-4c8e-9aa9-0e8d335ab379" />
 
 ## 🛠️ The Build – Tools & Technologies  
 
