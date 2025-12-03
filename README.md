@@ -1,5 +1,6 @@
 # Travel Assistant Agent 🌍✈️
 The **Travel Assistant Agent** is an intelligent, multi-functional AI designed to streamline the entire travel planning process. 
+<img width="1024" height="1024" alt="Travel_AI_Agent" src="https://github.com/user-attachments/assets/718c81a9-2732-41b0-8688-a8c7df3536e4" />
 
 ## 📌 Problem Statement
 Planning a trip is time-consuming and overwhelming. Travelers often spend hours switching between blogs, travel sites, and social media just to figure out:
